@@ -1,0 +1,49 @@
+-- Cliente
+
+use loja;
+
+CREATE USER 'usuario'@'localhost'
+IDENTIFIED BY 'usuario';
+
+CREATE ROLE 'cliente'@'localhost';
+
+GRANT SELECT
+ON loja.*
+TO 'cliente'@'localhost';
+
+GRANT INSERT, DELETE
+ON loja.pedido
+TO 'cliente'@'localhost';
+
+FLUSH PRIVILEGES;
+
+GRANT 'cliente'@'localhost' TO 'usuario'@'localhost';
+
+SHOW GRANTS FOR 'cliente'@'localhost';
+SHOW GRANTS FOR 'usuario'@'localhost';
+
+-- Gerente
+
+CREATE USER 'gerente1'@'localhost'
+IDENTIFIED BY 'gerente1';
+
+CREATE ROLE 'gerente'@'localhost';
+
+GRANT SELECT
+ON loja.*
+TO 'gerente'@'localhost';
+
+GRANT INSERT, UPDATE, DELETE
+ON loja.produto
+TO 'gerente'@'localhost';
+
+GRANT INSERT, UPDATE, DELETE
+ON loja.categoria
+TO 'gerente'@'localhost';
+
+FLUSH PRIVILEGES;
+
+GRANT 'cliente'@'localhost', 'gerente'@'localhost' TO 'gerente1'@'localhost';
+
+SHOW GRANTS FOR 'gerente'@'localhost';
+SHOW GRANTS FOR 'gerente1'@'localhost';

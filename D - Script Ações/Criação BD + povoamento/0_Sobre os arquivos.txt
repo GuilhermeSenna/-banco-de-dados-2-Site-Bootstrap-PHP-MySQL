@@ -1,0 +1,1 @@
+Esses arquivos foram gerados exportando do phpMyAdmin
