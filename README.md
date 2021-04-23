@@ -1,7 +1,3 @@
-### 动态创建 Editor.md
-
-Dynamic create Editor.md
-
 # banco-de-dados-2-Site-Bootstrap-PHP-MySQL
 **Database 2 course work**, involving the creation of a **web interface**, using **bootstrap** and **PHP**, performing CRUD in **MySQL** using **phpMyAdmin**
 
