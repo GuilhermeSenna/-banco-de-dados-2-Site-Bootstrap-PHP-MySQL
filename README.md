@@ -22,7 +22,7 @@ The theme chosen by me was the **online store,** **with all the logical part cre
 
 
 
-#### # **A - Descrição sucinta do problema (Short description of the problem)**
+#### **A - Descrição sucinta do problema (Short description of the problem)**
 -> A more detailed description of what was said above about the project.
 
 #### **B - DER conceitual (conceptual Entity Relationship Diagram (ERD))**
