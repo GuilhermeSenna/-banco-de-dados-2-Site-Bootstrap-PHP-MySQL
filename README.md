@@ -53,4 +53,15 @@ The theme chosen by me was the **online store,** **with all the logical part cre
 ### **G - slide**
 -> Slide that was used on the day of the presentation of the work. 
 
+---
 
+# Some images
+
+![Login](img/1_login.png)
+![Registro 1](img/2_registro1.png)
+![Registro 2](img/3_registro2.png)
+![Tela cliente](img/4_tela_cliente.png)
+![Ordenacao](img/5_ordenacao.png)
+![Ordem alfabetica](img/6_alfabetica.png)
+![Carrinho](img/7_carrinho.png)
+![Compra](img/8_Compra.png)
