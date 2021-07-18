@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `produto` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `nome` (`nome`),
   KEY `categoriaID` (`categoriaID`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Extraindo dados da tabela `produto`

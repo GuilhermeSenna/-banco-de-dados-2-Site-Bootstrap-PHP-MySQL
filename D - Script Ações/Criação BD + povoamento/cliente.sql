@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   UNIQUE KEY `RG` (`RG`),
   UNIQUE KEY `CPF` (`CPF`),
   KEY `fk_foreign_key_clienteEndereco` (`enderecoID`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Extraindo dados da tabela `cliente`

@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `categoria` (
   `nome` varchar(60) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `nome` (`nome`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Extraindo dados da tabela `categoria`

@@ -3,7 +3,7 @@
     $username = "root";
     $password = '';
     $dbname = "loja";
-    $port = 3308;
+    $port = 3306;
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname, $port);
@@ -13,4 +13,3 @@
     die("Connection failed: " . $conn->connect_error);
     }
     // echo "Connected successfully";
-?>

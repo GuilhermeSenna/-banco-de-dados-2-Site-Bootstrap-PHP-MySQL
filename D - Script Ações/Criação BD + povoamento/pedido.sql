@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `pedido` (
   `quantidade` int DEFAULT NULL,
   PRIMARY KEY (`ID`),
   KEY `fk_foreign_key_pedidoProduto` (`produtoID`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Extraindo dados da tabela `pedido`
