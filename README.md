@@ -55,7 +55,7 @@ The theme chosen by me was the **online store,** **with all the logical part cre
 
 ---
 
-# Some images
+# Screenshots
 
 ![Login](img/1_login.png)
 ![Registro 1](img/2_registro1.png)
